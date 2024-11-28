@@ -22,7 +22,7 @@ while continuar != 'N':
     print(f'A quantidade mínima é de {quantidade_minima} lajotas')
     continuar = input('Deseja continuar?:')
 print('Fim...')
-
+knllkjlkjlkj
 
 
 
