@@ -8,10 +8,9 @@ while continuar != 'N':
     valor1, valor2, valor3 = list(map(int, valores.split()))
 
     if(valor1 < valor2 and valor1 < valor3):
-        print(menor_valor)
+        menor_valor = valor1
     if(valor2 < valor1 and valor2 < valor3):
         menor_valor = valor2
-        print(menor_valor)
     if(valor3 < valor1 and valor3 < valor2):
         menor_valor = valor3
 
@@ -23,6 +22,6 @@ while continuar != 'N':
     print(f'O valor do desconto é de R${desconto}')
     print(f'O valor pago foi de R${valor_pago}')
     input('Deseja continuar?(S?/N):')
-    
+
 
 
